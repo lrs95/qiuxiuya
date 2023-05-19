@@ -1,0 +1,2 @@
+# BiliBili_哔哩哔哩_繁体CC字幕转中文简体
+http-response ^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_cc.js, requires-body=true, timeout=60, tag=bilibili_cc_128
