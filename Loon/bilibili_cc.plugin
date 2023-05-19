@@ -1,2 +1,8 @@
+#!name=BiliBili_cc
+#!desc=bilibili_CC字幕繁转简
+#!icon=https://github.com/BiliUniverse/Enhanced/raw/main/database/icon_108x.png
+[Script]
 # BiliBili_哔哩哔哩_繁体CC字幕转中文简体
 http-response ^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_cc.js, requires-body=true, timeout=60, tag=bilibili_cc_128
+[MITM]
+hostname = aisubtitle.hdslb.com,i0.hdslb.com
